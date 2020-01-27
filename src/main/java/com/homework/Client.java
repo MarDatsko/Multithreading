@@ -1,4 +1,4 @@
-package com.homework;
+package main.java.com.homework;
 
 public class Client extends Thread {
     public static Server server = new Server();

@@ -1,4 +1,4 @@
-package com.homework;
+package main.java.com.homework;
 
 public class Executor {
 
