@@ -1,4 +1,4 @@
-package main.java.com.homework;
+package main.java.com.homework.hw13;
 
 import java.util.Random;
 
