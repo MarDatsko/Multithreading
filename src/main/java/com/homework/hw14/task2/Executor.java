@@ -4,14 +4,14 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Executor {
-    Client yura = new Client(new Request(), "Yura");
-    Client max = new Client(new Request(), "Max");
-    Client oleg = new Client(new Request(), "Oleg");
-    Client vlad = new Client(new Request(), "Vlad");
-    Client dima = new Client(new Request(), "Dima");
-    Client ivan = new Client(new Request(), "Ivan");
-    Client marian = new Client(new Request(), "Marian");
-    Client bogdan = new Client(new Request(), "Bogdan");
+    private Client yura = new Client(new Request(), "Yura");
+    private Client max = new Client(new Request(), "Max");
+    private Client oleg = new Client(new Request(), "Oleg");
+    private Client vlad = new Client(new Request(), "Vlad");
+    private Client dima = new Client(new Request(), "Dima");
+    private Client ivan = new Client(new Request(), "Ivan");
+    private Client marian = new Client(new Request(), "Marian");
+    private Client bogdan = new Client(new Request(), "Bogdan");
 
     public void run() {
         ExecutorService executorService = Executors.newCachedThreadPool();
