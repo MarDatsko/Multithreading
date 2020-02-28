@@ -8,7 +8,7 @@ public class BankAccount {
     public synchronized BigDecimal getMoney(BigDecimal sum) {
         if (money.compareTo(sum) <= 1) {
             money = money.subtract(sum);
-        }else {
+        } else {
             money = BigDecimal.valueOf(0);
         }
         return money;
